@@ -4,7 +4,7 @@ describe('Projeto Twilio API SMS - Enviar SMS', () => {
     var user = {
         "email": "aquisicaoteste@teste.com",
         "password": "passwordPass123",
-        "phone": "+5521970025979"
+        "phone": "seu numero de celular"
     }
     it('teste de retorno do json', () => {
         cy.request('POST', '/users', user).then((response) => {
